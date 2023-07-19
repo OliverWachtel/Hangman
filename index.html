@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>repl.it</title>
+    <link href="style.css" rel="stylesheet" type="text/css" />
+    <script src="script.js"></script>
+  </head>
+ <body>
+
+<h1>HANGPERSON</h1>
+
+<!-- select box for difficulty? -->
+<select id="difficulty">
+    <option value="1">U.S. Presidents</option>
+    <option value="2">Elements</option>
+    <option value="3">Baby Words</option>
+    <option value="4">Difficult Words</option>
+</select>
+
+<button onclick="startGame()">Start New Game</button>
+
+<!-- try the more advanced button system from classroom instead of this! -->
+<input type="text" id="guessedLetter" placeholder="?" size="25">
+
+<button onclick="guessLetter()">Guess Letter</button>
+
+<br><br>
+
+<div id="winLose"></div>
+
+<br><br>
+
+<div id="guessWord"></div>
+
+<h3>Guessed Letters</h3>
+
+<div id="guessedLetters"></div>
+
+<h4>Guesses Remaining...</h4>
+<div id="numGuesses"></div>
+
+<div id="word"></div>
+
+
+</body>
+</html>
